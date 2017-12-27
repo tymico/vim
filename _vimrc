@@ -2,53 +2,53 @@
 
 " ---------
 
-" ¹Ø±Õ¾É°æ¼æÈİĞÔ
+" å…³é—­æ—§ç‰ˆå…¼å®¹æ€§
 set nocompatible
 
-" ÎÄ¼şÓĞ¸ü¸Ä×Ô¶¯¸üĞÂ
+" æ–‡ä»¶æœ‰æ›´æ”¹è‡ªåŠ¨æ›´æ–°
 set autoread
 
-" Ö§³ÖÍË¸ñ»Øµ½ÉÏÒ»ĞĞ
+" æ”¯æŒé€€æ ¼å›åˆ°ä¸Šä¸€è¡Œ
 set backspace=indent,eol,start
 
-" Ä£ºı¿í¶ÈÎªÁ½¸ö×Ö·û
+" æ¨¡ç³Šå®½åº¦ä¸ºä¸¤ä¸ªå­—ç¬¦
 set ambiwidth=double
 
-" ÎÄ¼ş±àÂë¸ñÊ½
+" æ–‡ä»¶ç¼–ç æ ¼å¼
 set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,chinese,latin-1
 set termencoding=utf-8
 
-"set bomb? " ²éÑ¯utf-8±àÂëµÄbom±ê¼Ç 
-"set nobomb " ¿ªÆôutf-8±àÂëµÄÎŞbom±ê¼Ç 
-set bomb " ¿ªÆôutf-8±àÂëµÄbom±ê¼Ç
+"set bomb? " æŸ¥è¯¢utf-8ç¼–ç çš„bomæ ‡è®° 
+"set nobomb " å¼€å¯utf-8ç¼–ç çš„æ— bomæ ‡è®° 
+set bomb " å¼€å¯utf-8ç¼–ç çš„bomæ ‡è®°
 
-" ½â¾öconsoleÊä³öÂÒÂë
+" è§£å†³consoleè¾“å‡ºä¹±ç 
 language messages zh_CN.utf-8
 
-" ²»×Ô¶¯Éú³É±¸·İÎÄ¼ş
+" ä¸è‡ªåŠ¨ç”Ÿæˆå¤‡ä»½æ–‡ä»¶
 set nobackup
 
-" ²»²úÉú½»»»ÎÄ¼ş
+" ä¸äº§ç”Ÿäº¤æ¢æ–‡ä»¶
 setlocal noswapfile
 
-" ¿ªÆôÎÄ¼şÀàĞÍ
+" å¼€å¯æ–‡ä»¶ç±»å‹
 filetype off    " vundle required!
 
-" ¿ªÆô²å¼ş
+" å¼€å¯æ’ä»¶
 filetype plugin on
 
-" ¿ªÆôÖÇÄÜÎÄ¼şÀàĞÍÊ¶±ğ
+" å¼€å¯æ™ºèƒ½æ–‡ä»¶ç±»å‹è¯†åˆ«
 filetype indent on
 
-" ±£ÁôÀúÊ·×î´óÌõÄ¿
+" ä¿ç•™å†å²æœ€å¤§æ¡ç›®
 set history=300
 
 " 
 set bufhidden=hide
 
-" Ö§³ÖÏµÍ³¼ôÇĞ°å£¬ºÃÏñÖ»ÔÚgvimÖĞÉúĞ§
+" æ”¯æŒç³»ç»Ÿå‰ªåˆ‡æ¿ï¼Œå¥½åƒåªåœ¨gvimä¸­ç”Ÿæ•ˆ
 set clipboard+=unnamed
 
 " ---------
@@ -56,28 +56,28 @@ set clipboard+=unnamed
 "
 set whichwrap+=<,>,h,l
 
-" ÏÔÊ¾À¨ºÅÆ¥ÅäÇé¿ö
+" æ˜¾ç¤ºæ‹¬å·åŒ¹é…æƒ…å†µ
 set magic
 
-" ¿ªÆôĞĞºÅ
+" å¼€å¯è¡Œå·
 set number
 
-" ¿ªÆô±ê³ß
+" å¼€å¯æ ‡å°º
 set ruler
 
-" ´ò¿ª×Ô¶¯ÕÛĞĞ
+" æ‰“å¼€è‡ªåŠ¨æŠ˜è¡Œ
 set wrap
 
-" ÖÇÄÜËõ½ø
+" æ™ºèƒ½ç¼©è¿›
 set smartindent
 
-" Ëõ½ø¿í¶ÈÎª4
+" ç¼©è¿›å®½åº¦ä¸º4
 set shiftwidth=4
 
-" Ëõ½ø¿í¶ÈÎª4
+" ç¼©è¿›å®½åº¦ä¸º4
 set tabstop=4
 
-" Ëõ½øÎª4¸ö¿Õ¸ñ
+" ç¼©è¿›ä¸º4ä¸ªç©ºæ ¼
 set softtabstop=4
 
 "
@@ -86,49 +86,50 @@ set expandtab
 " 
 set dy=lastline
 
-" ¿ªÆôÓï·¨¸ßÁÁ
+" å¼€å¯è¯­æ³•é«˜äº®
 syntax on
 
-" ¼´Ê±ËÑË÷
+" å³æ—¶æœç´¢
 set incsearch
 
-" ´ò¿ªËÑË÷¸ßÁÁ
+" æ‰“å¼€æœç´¢é«˜äº®
 set hlsearch
 
-" ÏÔÊ¾Åä¶Ô
+" æ˜¾ç¤ºé…å¯¹
 set showmatch
 
-" ÏÔÊ¾Åä¶ÔÊ±¼äÎª2s
+" æ˜¾ç¤ºé…å¯¹æ—¶é—´ä¸º2s
 set matchtime=2
 
 " 
 set scrolloff=3
 
-" ×´Ì¬À¸Îª2ĞĞ
+" çŠ¶æ€æ ä¸º2è¡Œ
 set laststatus=2
 
-" ×´Ì¬À¸¸ñÊ½
+" çŠ¶æ€æ æ ¼å¼
 set statusline=
 set statusline+=[%f]\ 
 set statusline+=%{(&fenc==\"\"?&enc:&fenc)}\ %{&ff}\ %Y\ 
 set statusline+=[%v,%l/%L]\ %p%%\ 
-set statusline+=[%{strftime(\"%Y/%m/%d\ %H:%M\")}]
-set statusline+=%=
-set statusline+=[0x%-2B]
+set statusline+=[%{strftime(\"%Y/%m/%d\ %H:%M\")}] 
+"set statusline+=[%{ALEGetStatusLine()}] 
+set statusline+=%= 
+set statusline+=[0x%-2B] 
 
 " 
 set brk=
 
-" ÖÇÄÜËõ½ø
+" æ™ºèƒ½ç¼©è¿›
 set smarttab
 
 " 
 " set cursorline
 
-" ÖÇÄÜÇĞ»»Ä¿Â¼
+" æ™ºèƒ½åˆ‡æ¢ç›®å½•
 set autochdir
 
-" ¿ªÆôÕÛµş
+" å¼€å¯æŠ˜å 
 set foldenable
 
 " 
@@ -137,34 +138,35 @@ set foldcolumn=0
 " 
 setlocal foldlevel=1
 
-" ĞÂ´ò¿ªµÄÎÄ¼ş²»ÕÛµş
+" æ–°æ‰“å¼€çš„æ–‡ä»¶ä¸æŠ˜å 
 "autocmd! BufNewFile,BufRead * setlocal nofoldenable
 "au BufNewFile,BufRead *.txt set linespace=6
 
 " 
 set foldexpr=1
 
-" Ëõ½ø·½·¨
+" ç¼©è¿›æ–¹æ³•
 set foldmethod=indent
 autocmd FileType c,cpp set foldmethod=syntax
+autocmd FileType python set omnifunc=python3complete#Complete
 
-" Ëõ½ø¹æÔò
+" ç¼©è¿›è§„åˆ™
 if has("autocmd")
-    filetype plugin indent on "¸ù¾İÎÄ¼ş½øĞĞËõ½ø
+    filetype plugin indent on "æ ¹æ®æ–‡ä»¶è¿›è¡Œç¼©è¿›
     augroup vimrcEx
         au!
-        autocmd FileType text setlocal textwidth=78
+        "autocmd FileType text setlocal textwidth=78
         autocmd BufReadPost *
                     \ if line("'\"") > 1 && line("'\"") <= line("$") |
                     \ exe "normal! g`\"" |
                     \ endif
     augroup END
 else
-    "ÖÇÄÜËõ½ø£¬ÏàÓ¦µÄÓĞcindent£¬¹Ù·½Ëµautoindent¿ÉÒÔÖ§³Ö¸÷ÖÖÎÄ¼şµÄËõ½ø£¬µ«ÊÇĞ§¹û»á±ÈÖ»Ö§³ÖC/C++µÄcindentĞ§¹û»á²îÒ»µã£¬µ«±ÊÕß²¢Ã»ÓĞ¿´³öÀ´
+    "æ™ºèƒ½ç¼©è¿›ï¼Œç›¸åº”çš„æœ‰cindentï¼Œå®˜æ–¹è¯´autoindentå¯ä»¥æ”¯æŒå„ç§æ–‡ä»¶çš„ç¼©è¿›ï¼Œä½†æ˜¯æ•ˆæœä¼šæ¯”åªæ”¯æŒC/C++çš„cindentæ•ˆæœä¼šå·®ä¸€ç‚¹ï¼Œä½†ç¬”è€…å¹¶æ²¡æœ‰çœ‹å‡ºæ¥
     set autoindent " always set autoindenting on 
 endif " has("autocmd")
 
-" ÉèÖÃgvim½çÃæÏÔÊ¾
+" è®¾ç½®gvimç•Œé¢æ˜¾ç¤º
 if has("gui_running")
     set guioptions-=m	" 
     set guioptions-=T	" 
@@ -174,36 +176,26 @@ if has("gui_running")
 
     "set lines=60 columns=108
 
-    " ´°¿ÚÆô¶¯Ê±×Ô¶¯×î´ó»¯
+    " çª—å£å¯åŠ¨æ—¶è‡ªåŠ¨æœ€å¤§åŒ–
     au GUIEnter * simalt ~x
 endif
 
-if(has("win32") || has("win95") || has("win64") || has("win16")) "ÅĞ¶¨µ±Ç°²Ù×÷ÏµÍ³ÀàĞÍ
+if(has("win32") || has("win95") || has("win64") || has("win16")) "åˆ¤å®šå½“å‰æ“ä½œç³»ç»Ÿç±»å‹
     let g:iswindows=1
 else
     let g:iswindows=0
 endif
 
-" ÉèÖÃ×ÖÌå
-" set guifont=DejaVu\ Sans\ Mono\ h10
-set guifont=Consolas:h11
-"set guifont=ºÚÌå-·±:h11
+" è®¾ç½®å­—ä½“
+set guifont=Consolas:h12
 
-" ÉèÖÃÑÕÉ«Ö÷Ìâ
-colo ron
-"colo hhteal
+" è®¾ç½®é¢œè‰²ä¸»é¢˜
+"colo ron
+colo desert 
 
-" ĞŞ¸ÄÃüÁîÇ°×º,Ä¬ÈÏÎª'\'
+" ä¿®æ”¹å‘½ä»¤å‰ç¼€,é»˜è®¤ä¸º'\'
 let mapleader = ","
 
-" ×Ô¶¯²åÈëÆ¥ÅäÀ¨ºÅ
-:inoremap ( ()<esc>i
-:inoremap ) <c-r>=ClosePair(')')<cr>
-:inoremap [ []<esc>i
-:inoremap ] <c-r>=ClosePair(']')<cr>
-:inoremap { {}<esc>i
-:inoremap } <c-r>=ClosePair('}')<cr>
- 
 function! ClosePair(char)
     if getline('.')[col('.')-1] == a:char
         return "\<Right>"
@@ -212,50 +204,66 @@ function! ClosePair(char)
     endif
 endfunction
 
-" ¶¨ÒåF3²åÈëÊ±¼ä
-:imap <C-F3> <c-r>=strftime("%Y-%m-%d %w")<cr>
-
-
-" ĞÂ½¨ÎÄ¼ş²åÈëÎÄ¼şÍ·
+" æ–°å»ºæ–‡ä»¶æ’å…¥æ–‡ä»¶å¤´
 autocmd BufNewFile *.[ch],*.hpp,*.cpp exec ":call SetTitle()" 
 
-" ¶¨ÒåF4ÈÈ¼ü£¬Ğ´ÎÄ¼şÍ·×¢ÊÍ
-map <F4> ms:call TitleDet()<cr>'s
-
-" ¼ÓÈë×¢ÊÍ
+" åŠ å…¥æ³¨é‡Š
 func AddTitleComment()
-    call append(0, "/**") 
-    call append(1, " * Filename:  ".expand("%:t"))
-    call append(2, " * Created:   ".strftime("%Y/%m/%d %H:%M:%S")) 
-    call append(3, " * Modified:  ".strftime("%Y/%m/%d %H:%M:%S"))
-    call append(4, " * Author:    wangzhongtang") 
-    call append(5, " * Copyright: 2007-2011 (C) Copyright by Shanghai iESLab Co., Ltd.")
-    call append(6, " * Description:   ") 
-    call append(7, " * ") 
-    call append(8, " **/")
+    let l:lineNO = 0
+    call append(l:lineNO, "/**") 
+    let l:lineNO = l:lineNO + 1
+    call append(l:lineNO, " * Filename:  ".expand("%:t"))
+    let l:lineNO = l:lineNO + 1
+    call append(l:lineNO, " * Created:   ".strftime("%Y/%m/%d %H:%M:%S")) 
+    let l:lineNO = l:lineNO + 1
+    "call append(l:lineNO, " * Modified:  ".strftime("%Y/%m/%d %H:%M:%S"))
+    "let l:lineNO = l:lineNO + 1
+    call append(l:lineNO, " * Author:    moe") 
+    let l:lineNO = l:lineNO + 1
+    call append(l:lineNO, " * Copyright: 2007-2011 (C) Copyright by moe.")
+    let l:lineNO = l:lineNO + 1
+    call append(l:lineNO, " * Description:   ") 
+    let l:lineNO = l:lineNO + 1
+    call append(l:lineNO, " * ") 
+    let l:lineNO = l:lineNO + 1
+    call append(l:lineNO, " **/")
 endfunc
 
-" ¶¨Òåº¯ÊıSetTitle£¬×Ô¶¯²åÈëÎÄ¼şÍ· 
+" å®šä¹‰å‡½æ•°SetTitleï¼Œè‡ªåŠ¨æ’å…¥æ–‡ä»¶å¤´ 
 func SetTitle()
+    let l:lineNO = 8
     if expand("%:e") == 'hpp'
         call AddTitleComment()
-        call append(9, "#ifndef _".toupper(expand("%:t:r"))."_H") 
-        call append(10, "#define _".toupper(expand("%:t:r"))."_H") 
-        call append(11, "#ifdef __cplusplus") 
-        call append(12, "extern \"C\"") 
-        call append(13, "{") 
-        call append(14, "#endif") 
-        call append(15, "") 
-        call append(16, "#ifdef __cplusplus") 
-        call append(17, "}") 
-        call append(18, "#endif") 
-        call append(19, "#endif // _".toupper(expand("%:t:r"))."_H") 
+        call append(l:lineNO, "#ifndef _".toupper(expand("%:t:r"))."_H") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "#define _".toupper(expand("%:t:r"))."_H") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "#ifdef __cplusplus") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "extern \"C\"") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "{") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "#endif") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "#ifdef __cplusplus") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "}") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "#endif") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "#endif /* _".toupper(expand("%:t:r"))."_H */") 
     elseif expand("%:e") == 'h'
         call AddTitleComment()
-        call append(9, "#ifndef _".toupper(expand("%:t:r"))."_H") 
-        call append(10, "#define _".toupper(expand("%:t:r"))."_H") 
-        call append(11, "") 
-        call append(12, "#endif // _".toupper(expand("%:t:r"))."_H") 
+        call append(l:lineNO, "#ifndef _".toupper(expand("%:t:r"))."_H") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "#define _".toupper(expand("%:t:r"))."_H") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "") 
+        let l:lineNO = l:lineNO + 1
+        call append(l:lineNO, "#endif /* _".toupper(expand("%:t:r"))."_H */") 
     elseif &filetype =='c' 
         call append(0, "#include \"".expand("%:t:r").".h\"") 
     elseif &filetype =='cpp' 
@@ -263,19 +271,19 @@ func SetTitle()
     endif
 endfunc
 
-" ¸üĞÂ×î½üĞŞ¸ÄÊ±¼äºÍÎÄ¼şÃû
+" æ›´æ–°æœ€è¿‘ä¿®æ”¹æ—¶é—´å’Œæ–‡ä»¶å
 function UpdateTitle()
-    " ×¢Òâ£¬ÕâÀï´Ó£±¿ªÊ¼ÎªµÚ£±ĞĞ
+    " æ³¨æ„ï¼Œè¿™é‡Œä»ï¼‘å¼€å§‹ä¸ºç¬¬ï¼‘è¡Œ
     "call setline(2, " * Filename:  ".expand("%:t"))
-    call setline(4, " * Modified:  ".strftime("%Y/%m/%d %H:%M:%S"))
+    "call setline(4, " * Modified:  ".strftime("%Y/%m/%d %H:%M:%S"))
 endf
 
-" ÅĞ¶ÏÇ°10ĞĞ´úÂëÀïÃæ£¬ÊÇ·ñÓĞModifiedÕâ¸öµ¥´Ê£¬
-" Èç¹ûÃ»ÓĞµÄ»°£¬´ú±íÃ»ÓĞÌí¼Ó¹ı×÷ÕßĞÅÏ¢£¬ĞèÒªĞÂÌí¼Ó£»
-" Èç¹ûÓĞµÄ»°£¬ÄÇÃ´Ö»ĞèÒª¸üĞÂ¼´¿É
+" åˆ¤æ–­å‰10è¡Œä»£ç é‡Œé¢ï¼Œæ˜¯å¦æœ‰Modifiedè¿™ä¸ªå•è¯ï¼Œ
+" å¦‚æœæ²¡æœ‰çš„è¯ï¼Œä»£è¡¨æ²¡æœ‰æ·»åŠ è¿‡ä½œè€…ä¿¡æ¯ï¼Œéœ€è¦æ–°æ·»åŠ ï¼›
+" å¦‚æœæœ‰çš„è¯ï¼Œé‚£ä¹ˆåªéœ€è¦æ›´æ–°å³å¯
 function TitleDet()
     let n = 1
-    " Ä¬ÈÏÎªÌí¼Ó
+    " é»˜è®¤ä¸ºæ·»åŠ 
     while n < 10
         let line = getline(n)
         if line =~ '^.*Modified.*$'
@@ -287,116 +295,35 @@ function TitleDet()
     "call AddTitleComment()
 endfunction
 
-"±£´æÊ±¸üĞÂÊ±¼ä
+"ä¿å­˜æ—¶æ›´æ–°æ—¶é—´
 au BufWritePost *.h,*.hpp : call TitleDet()
 
 
+" ---------- shortcut ----------
+" è‡ªåŠ¨æ’å…¥åŒ¹é…æ‹¬å·
+    :inoremap ( ()<esc>i
+    :inoremap ) <c-r>=ClosePair(')')<cr>
+    :inoremap [ []<esc>i
+    :inoremap ] <c-r>=ClosePair(']')<cr>
+    :inoremap { {}<esc>i
+    :inoremap } <c-r>=ClosePair('}')<cr>
+
+" å®šä¹‰F4çƒ­é”®ï¼Œå†™æ–‡ä»¶å¤´æ³¨é‡Š
+    imap <C-F4> <esc>:call SetTitle()<cr>
+ 
+" å®šä¹‰F3æ’å…¥æ—¶é—´
+    :imap <C-F3> <c-r>=strftime("%Y-%m-%d %w")<cr>
+
+" æ·»åŠ å‡½æ•°æ³¨é‡Š
+    imap <F3> <esc>:Dox<cr>
+    nmap <F3> :Dox<cr>
+
+" Quickfixçª—å£ç›¸å…³
+    " è·³è½¬åˆ°ä¸‹/ä¸Šä¸€ä¸ªæç¤º
+    nmap <C-j> :cn<cr>
+    nmap <C-k> :cp<cr>
+
 " ---------- plugin begin ----------
-
-" ctags
-    map <F12> :call Do_CsTag()<CR>
-    nmap <C-@>s :cs find s <C-R>=expand("<cword>")<CR><CR>:copen<CR>
-    nmap <C-@>g :cs find g <C-R>=expand("<cword>")<CR><CR>
-    nmap <C-@>c :cs find c <C-R>=expand("<cword>")<CR><CR>:copen<CR>
-    nmap <C-@>t :cs find t <C-R>=expand("<cword>")<CR><CR>:copen<CR>
-    nmap <C-@>e :cs find e <C-R>=expand("<cword>")<CR><CR>:copen<CR>
-    nmap <C-@>f :cs find f <C-R>=expand("<cfile>")<CR><CR>:copen<CR>
-    nmap <C-@>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>:copen<CR>
-    nmap <C-@>d :cs find d <C-R>=expand("<cword>")<CR><CR>:copen<CR>
-    function Do_CsTag()
-        let dir = getcwd()
-        if filereadable("tags")
-            if(g:iswindows==1)
-                let tagsdeleted=delete(dir."\\"."tags")
-            else
-                let tagsdeleted=delete("./"."tags")
-            endif
-            if(tagsdeleted!=0)
-                echohl WarningMsg | echo "Fail to do tags! I cannot delete the tags" | echohl None
-                return
-            endif
-        endif
-        if has("cscope")
-            silent! execute "cs kill -1"
-        endif
-        if filereadable("cscope.files")
-            if(g:iswindows==1)
-                let csfilesdeleted=delete(dir."\\"."cscope.files")
-            else
-                let csfilesdeleted=delete("./"."cscope.files")
-            endif
-            if(csfilesdeleted!=0)
-                echohl WarningMsg | echo "Fail to do cscope! I cannot delete the cscope.files" | echohl None
-                return
-            endif
-        endif
-        if filereadable("cscope.out")
-            if(g:iswindows==1)
-                let csoutdeleted=delete(dir."\\"."cscope.out")
-            else
-                let csoutdeleted=delete("./"."cscope.out")
-            endif
-            if(csoutdeleted!=0)
-                echohl WarningMsg | echo "Fail to do cscope! I cannot delete the cscope.out" | echohl None
-                return
-            endif
-        endif
-        if(executable('ctags'))
-            "silent! execute "!ctags -R --c-types=+p --fields=+S *"
-            silent! execute "!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q ."
-        endif
-        if(executable('cscope') && has("cscope") )
-            if(g:iswindows!=1)
-                silent! execute "!find . -name '*.h' -o -name '*.c' -o -name '*.cpp' -o -name '*.java' -o -name '*.cs' > cscope.files"
-            else
-                silent! execute "!dir /s/b *.c,*.cpp,*.h,*.java,*.cs >> cscope.files"
-            endif
-            silent! execute "!cscope -b"
-            execute "normal :"
-            if filereadable("cscope.out")
-                execute "cs add cscope.out"
-            endif
-        endif
-        execute "!pause"
-    endfunction
-
-set tags+=d:/IDE/cpp_src/tags
-"set tags+=d:/IDE/Qt/Qt5.2.0/5.2.0/msvc2012/include/tags
-
-" omniCppComplete
-    set completeopt=menu
-    autocmd FileType c set omnifunc=ccomplete#Complete
-    let OmniCpp_NamespaceSearch = 1
-    let OmniCpp_GlobalScopeSearch = 1
-    let OmniCpp_ShowAccess = 1
-    let OmniCpp_ShowPrototypeInAbbr = 1 " ÏÔÊ¾º¯Êı²ÎÊıÁĞ±í
-    let OmniCpp_MayCompleteDot = 1      " ÊäÈë .  ºó×Ô¶¯²¹È«
-    let OmniCpp_MayCompleteArrow = 1    " ÊäÈë -> ºó×Ô¶¯²¹È«
-    let OmniCpp_MayCompleteScope = 1    " ÊäÈë :: ºó×Ô¶¯²¹È«
-    let OmniCpp_DefaultNamespaces = ["std"]
-    imap <a-/> <c-x><c-o>
-
-"" taglist
-    " ÒòÎªÎÒÃÇ·ÅÔÚ»·¾³±äÁ¿Àï£¬ËùÒÔ¿ÉÒÔÖ±½ÓÖ´ĞĞ
-    "let Tlist_Ctags_Cmd='d:/IDE/cscope-15.7a/ctags.exe' 
-    "ÈÃ´°¿ÚÏÔÊ¾ÔÚÓÒ±ß£¬0µÄ»°¾ÍÊÇÏÔÊ¾ÔÚ×ó±ß
-    "let Tlist_Use_Right_Window=1
-    "ÈÃtaglist¿ÉÒÔÍ¬Ê±Õ¹Ê¾¶à¸öÎÄ¼şµÄº¯ÊıÁĞ±í£¬Èç¹ûÏëÖ»ÓĞ1¸ö£¬ÉèÖÃÎª1
-    "let Tlist_Show_One_File=0 
-    "·Çµ±Ç°ÎÄ¼ş£¬º¯ÊıÁĞ±íÕÛµşÒş²Ø
-    "let Tlist_File_Fold_Auto_Close=1 
-    "µ±taglistÊÇ×îºóÒ»¸ö·Ö¸î´°¿ÚÊ±£¬×Ô¶¯ÍÆ³övim
-    "let Tlist_Exit_OnlyWindow=1 
-    "ÊÇ·ñÒ»Ö±´¦Àítags.1:´¦Àí;0:²»´¦Àí¡£²»ÊÇÒ»Ö±ÊµÊ±¸üĞÂtags£¬ÒòÎªÃ»ÓĞ±ØÒª
-    "let Tlist_Process_File_Always=0 
-    "let Tlist_Inc_Winwidth=0
-
-" tagbar
-    nmap <Leader>tb :TagbarToggle<CR> "¿ì½İ¼üÉèÖÃ
-    let g:tagbar_ctags_bin = 'd:/IDE/cscope-15.7a/ctags.exe' "ctags³ÌĞòµÄÂ·¾¶
-    let g:tagbar_width = 30 "´°¿Ú¿í¶ÈµÄÉèÖÃ
-    let g:tagbar_left = 1
-"    map <F3> :Tagbar<CR> "autocmd BufReadPost *.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen() "Èç¹ûÊÇcÓïÑÔµÄ³ÌĞòµÄ»°£¬tagbar×Ô¶¯¿ªÆô
 
 " NERD_commenter
 let NERDShutUp=1
@@ -421,60 +348,102 @@ let NERDShutUp=1
         return 1
     endfunction
     let NERDTreeIgnore = ['\.sln', '\.sdf', '\.user', '\.filters', '\.vcxproj', '\.suo'
+                    \ , '\.pdb', '\.exp', '\.ilk', '\.dll', '\.obj'
                     \ , '\.exe', '\.jpeg', '\.jpg', '\.bmp'
+                    \ , '\.meta'
                     \ , '\.out', '\.files', '^tags'
-                    \ , '^release$', '^debug$'
-                    \ , '^Makefile']
+                    \ , '^release$', '^debug$' , '^Release$', '^Debug$'
+                    \ , '\.Debug$', '\.Release$', '\.debug$', '\.release$']
 
 "" winManager
     let g:winManagerWindowLayout = 'NERDTree'
+    let g:persistentBehaviour = 0
     let g:winManagerWidth = 30
     nmap <Leader>wm :WMToggle<cr>
+
+" for ycm
+    let g:ycm_error_symbol = '.âœ—'
+    let g:ycm_warning_symbol = '.Ï'
+    let g:ycm_server_python_interpreter="C:/App/Python/Python35/python.exe"
+    nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
+    nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
+    nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+    nmap <F4> :YcmDiags<CR>
+    "å…³é—­åŠ è½½.ycm_extra_conf.pyæç¤º
+    let g:ycm_confirm_extra_conf=0
+    " å¼€å¯ YCM åŸºäºæ ‡ç­¾å¼•æ“
+    let g:ycm_collect_identifiers_from_tags_files=1
+    " ä»ç¬¬2ä¸ªé”®å…¥å­—ç¬¦å°±å¼€å§‹ç½—åˆ—åŒ¹é…é¡¹
+    let g:ycm_min_num_of_chars_for_completion=2
+    " ç¦æ­¢ç¼“å­˜åŒ¹é…é¡¹,æ¯æ¬¡éƒ½é‡æ–°ç”ŸæˆåŒ¹é…é¡¹
+    let g:ycm_cache_omnifunc=0
+    " è¯­æ³•å…³é”®å­—è¡¥å…¨
+    let g:ycm_seed_identifiers_with_syntax=1
+    "åœ¨æ³¨é‡Šè¾“å…¥ä¸­ä¹Ÿèƒ½è¡¥å…¨
+    let g:ycm_complete_in_comments = 1
+    "åœ¨å­—ç¬¦ä¸²è¾“å…¥ä¸­ä¹Ÿèƒ½è¡¥å…¨
+    let g:ycm_complete_in_strings = 1
+    "æ³¨é‡Šå’Œå­—ç¬¦ä¸²ä¸­çš„æ–‡å­—ä¹Ÿä¼šè¢«æ”¶å…¥è¡¥å…¨
+    let g:ycm_collect_identifiers_from_comments_and_strings = 0
+
+" for vim-indent-guides
+    let g:indent_guides_enable_on_vim_startup = 1
+
+" for ale
+    "ä¿æŒä¾§è¾¹æ å¯è§
+    "let g:ale_sign_column_always = 1
+    " çŠ¶æ€æ ä¿¡æ¯æ ¼å¼
+    let g:ale_statusline_format = ['âœ— %d', 'Ï %d', 'âœ” ok']
+    " é”™è¯¯å’Œè­¦å‘Šæ ‡è¯†ç¬¦
+    let g:ale_sign_error = '.âœ—'
+    let g:ale_sign_warning = '.Ï'
+    " å‘½ä»¤è¡Œæ¶ˆæ¯
+    let g:ale_echo_msg_error_str = 'E'
+    let g:ale_echo_msg_warning_str = 'W'
+    let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+    " è·³è½¬é”™è¯¯è¡Œå¿«æ·é”®
+    nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+    nmap <silent> <C-j> <Plug>(ale_next_wrap)
+    
+" for vint
+    let g:syntastic_vim_checkers = ['vint']
+
+" for vim-jsbeautify
+    map <leader>jf :call JsBeautify()<cr>
 
 " ---------- plugin end ----------
 
 " ---------- vundle begin ---------
-"set rtp+=~/.vim/bundle/vundle/ "linux|unixÔØÈëÌØ¶¨Ä¿Â¼²å¼ş
-set rtp+=$HOME/.vim/bundle/vundle/ "WindowsÏÂÔØÈëÓÃ»§Ä¿Â¼²å¼ş
+"set rtp+=~/.vim/bundle/vundle/ "linux|unixè½½å…¥ç‰¹å®šç›®å½•æ’ä»¶
+set rtp+=$HOME/.vim/bundle/vundle/ "Windowsä¸‹è½½å…¥ç”¨æˆ·ç›®å½•æ’ä»¶
 call vundle#rc()
   
 " let Vundle manage Vundle  
 " required!   
 Bundle 'gmarik/vundle'  
 
-" My Bundles here:  /* ²å¼şÅäÖÃ¸ñÊ½ */  
+" My Bundles here:  /* æ’ä»¶é…ç½®æ ¼å¼ */  
 "     
-" original repos on github £¨GithubÍøÕ¾ÉÏ·Çvim-scripts²Ö¿âµÄ²å¼ş£¬°´ÏÂÃæ¸ñÊ½ÌîĞ´£©  
+" original repos on github ï¼ˆGithubç½‘ç«™ä¸Šévim-scriptsä»“åº“çš„æ’ä»¶ï¼ŒæŒ‰ä¸‹é¢æ ¼å¼å¡«å†™ï¼‰  
 "Bundle 'tpope/vim-fugitive'  
 "Bundle 'Lokaltog/vim-easymotion'  
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}  
 "Bundle 'tpope/vim-rails.git'  
 "Bundle 'fholgado/minibufexpl.vim'
-Bundle 'majutsushi/tagbar'
-Bundle 'mattn/emmet-vim'
-Bundle 'kevinw/pyflakes-vim'
 
-" vim-scripts repos  £¨vim-scripts²Ö¿âÀïµÄ£¬°´ÏÂÃæ¸ñÊ½ÌîĞ´£©  
+" vim-scripts repos  ï¼ˆvim-scriptsä»“åº“é‡Œçš„ï¼ŒæŒ‰ä¸‹é¢æ ¼å¼å¡«å†™ï¼‰  
 "Bundle 'L9'  
 "Bundle 'FuzzyFinder'  
 "Bundle 'taglist.vim'
-Bundle 'bufexplorer.zip' 
-Bundle 'the-NERD-tree'
-Bundle 'The-NERD-Commenter' 
-Bundle 'a.vim'
-Bundle 'OmniCppComplete'
-Bundle 'winmanager'
-Bundle 'DoxygenToolkit.vim'
-Bundle 'python.vim'
 
-" non github repos   (·ÇÉÏÃæÁ½ÖÖÇé¿öµÄ£¬°´ÏÂÃæ¸ñÊ½ÌîĞ´)  
+" non github repos   (éä¸Šé¢ä¸¤ç§æƒ…å†µçš„ï¼ŒæŒ‰ä¸‹é¢æ ¼å¼å¡«å†™)  
 "Bundle 'git://git.wincent.com/command-t.git'  
 
 " ...   
 
 
-filetype plugin indent on     " required!   /** vimrcÎÄ¼şÅäÖÃ½áÊø **/  
-"                                           /** vundleÃüÁî **/  
+filetype plugin indent on     " required!   /** vimrcæ–‡ä»¶é…ç½®ç»“æŸ **/  
+"                                           /** vundleå‘½ä»¤ **/  
 " Brief help  
 " :BundleList          - list configured bundles  
 " :BundleInstall(!)    - install(update) bundles  
@@ -484,6 +453,76 @@ filetype plugin indent on     " required!   /** vimrcÎÄ¼şÅäÖÃ½áÊø **/
 " see :h vundle for more details or wiki for FAQ   
 " NOTE: comments after Bundle command are not allowed..
 
+" è¾“å‡º
+Bundle 'Kuniwak/vint'
+
+" è¯­æ³•é«˜äº®
+Bundle 'mattn/emmet-vim'
+Bundle 'othree/html5.vim'
+Bundle 'ap/vim-css-color'
+Bundle 'javascript-syntax'
+
+" ç¼©è¿›æ ‡è®°
+Bundle 'nathanaelkane/vim-indent-guides'
+
+" h/c,cppå¿«æ·åˆ‡æ¢
+Bundle 'a.vim'
+
+" ä»£ç æ³¨é‡Š
+Bundle 'The-NERD-Commenter' 
+Bundle 'DoxygenToolkit.vim'
+
+" ä»£ç æ ¼å¼åŒ–
+Bundle 'google/yapf'
+" jsæ ¼å¼åŒ–ï¼Œä¾èµ–nodejs
+Bundle 'maksimr/vim-jsbeautify'
+
+" çª—å£ç®¡ç†
+Bundle 'winmanager'
+Bundle 'bufexplorer.zip' 
+
+" æ–‡ä»¶æµè§ˆ
+Bundle 'the-NERD-tree'
+
+" ShaderLabè¯­æ³•é«˜äº®
+Bundle 'http://git.oschina.net/qiuchangjie/ShaderHighLight'
+
+" è¯­æ³•æ£€æŸ¥
+Bundle 'scrooloose/syntastic'
+"pythonè¯­æ³•æ£€æŸ¥ï¼Œä¸syntasticå†²çª
+"Bundle 'w0rp/ale'
+"jsè¯­æ³•æ£€æŸ¥
+Bundle 'lint.vim'
+
+" è°ƒè¯•
+Bundle 'vim-scripts/gdbmgr'
+
+" C#è¯­æ³•é«˜äº®
+Bundle 'csharp.vim'
+" jsè¯­æ³•é«˜äº®
+Bundle 'pangloss/vim-javascript'
+
+" è¿è¡Œåå°ä»»åŠ¡: AsyncRun xxx
+Bundle 'skywind3000/asyncrun.vim'
+" æ–‡ä»¶æœç´¢
+Bundle 'ctrlpvim/ctrlp.vim'
+" æ¨¡ç³Šæœç´¢å½“å‰æ–‡ä»¶ä¸­æ‰€æœ‰å‡½æ•°
+Bundle 'tacahiroy/ctrlp-funky'
+" æ‰¹é‡æœç´¢
+Bundle 'rking/ag.vim'
+" ä»£ç è¡¥å…¨ï¼Œéœ€è¦cmake,python,omnisharp
+Bundle 'Valloric/YouCompleteMe'
+" need OmiSharp start the server automatically and for running asynchronous builds.
+Bundle 'tpope/vim-dispatch'
+" C#è¯­æ³•è¡¥å…¨ï¼Œéœ€è¦Pythonç¼–è¯‘
+"Bundle 'OmniSharp/omnisharp-vim'
+" Pythonè¡¥å…¨
+Bundle 'davidhalter/jedi-vim'
+
+" ColorScheme
+Bundle 'tomasr/molokai'
+Bundle 'freya'
+Bundle 'altercation/vim-colors-solarized'
 
 " ---------- vundle end ---------
 
