@@ -414,6 +414,9 @@ let NERDShutUp=1
 " ---------- plugin end ----------
 
 " ---------- vundle begin ---------
+" 安装vundle：
+" $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
 "set rtp+=~/.vim/bundle/vundle/ "linux|unix载入特定目录插件
 set rtp+=$HOME/.vim/bundle/vundle/ "Windows下载入用户目录插件
 call vundle#rc()
